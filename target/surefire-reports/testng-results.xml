@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="7271" started-at="2023-05-01T21:37:37 GST" finished-at="2023-05-01T21:37:44 GST">
+    <groups>
+    </groups>
+    <test name="Main Test" duration-ms="7271" started-at="2023-05-01T21:37:37 GST" finished-at="2023-05-01T21:37:44 GST">
+      <class name="Campus.CountryTest">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Campus.CountryTest@2a742aa2]" name="Login" is-config="true" duration-ms="2640" started-at="2023-05-01T21:37:37 GST" finished-at="2023-05-01T21:37:39 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:Campus.CountryTest@2a742aa2]" name="Login" duration-ms="784" started-at="2023-05-01T21:37:39 GST" finished-at="2023-05-01T21:37:40 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="createCountry()[pri:0, instance:Campus.CountryTest@2a742aa2]" name="createCountry" duration-ms="1392" started-at="2023-05-01T21:37:40 GST" finished-at="2023-05-01T21:37:42 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCountry -->
+        <test-method status="PASS" signature="createCountryNegative()[pri:0, instance:Campus.CountryTest@2a742aa2]" name="createCountryNegative" duration-ms="672" started-at="2023-05-01T21:37:42 GST" depends-on-methods="Campus.CountryTest.createCountry" finished-at="2023-05-01T21:37:42 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCountryNegative -->
+        <test-method status="PASS" signature="updateCountry()[pri:0, instance:Campus.CountryTest@2a742aa2]" name="updateCountry" duration-ms="648" started-at="2023-05-01T21:37:42 GST" depends-on-methods="Campus.CountryTest.createCountryNegative" finished-at="2023-05-01T21:37:43 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCountry -->
+        <test-method status="PASS" signature="deleteCountry()[pri:0, instance:Campus.CountryTest@2a742aa2]" name="deleteCountry" duration-ms="532" started-at="2023-05-01T21:37:43 GST" depends-on-methods="Campus.CountryTest.updateCountry" finished-at="2023-05-01T21:37:43 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCountry -->
+        <test-method status="PASS" signature="deleteCountryNegative()[pri:0, instance:Campus.CountryTest@2a742aa2]" name="deleteCountryNegative" duration-ms="564" started-at="2023-05-01T21:37:43 GST" depends-on-methods="Campus.CountryTest.deleteCountry" finished-at="2023-05-01T21:37:44 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCountryNegative -->
+      </class> <!-- Campus.CountryTest -->
+    </test> <!-- Main Test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
