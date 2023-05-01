@@ -136,7 +136,7 @@ RequestSpecification recSpec;
                 .delete("/school-service/api/countries/{countryID}")
                 .then()
                 .log().body()
-                .statusCode(500) // jenkins için hata oluşturduk normalde beklenen 400
+                .statusCode(400) // tekrar beklenen sonuca dönüldü
                 .body("message",equalTo("Country not found"))
         ;
 
